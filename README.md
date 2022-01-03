@@ -31,6 +31,9 @@
 ```bash
 $ npm install
 ```
+Please install application using npm i
+Please provide enviromental variables for configuration in src/add.module
+use env.example provided
 
 ## Running the app
 
