@@ -117,8 +117,8 @@ export class StudentsService {
         }
       }
     }
-    query.limit(limit);
-    if (offset) query.offset(offset);
+    query.take(limit);
+    if (offset) query.skip(offset);
     return await query.getMany();
   }
 }
